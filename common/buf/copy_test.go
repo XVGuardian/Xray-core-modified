@@ -2,13 +2,12 @@ package buf_test
 
 import (
 	"crypto/rand"
-	"io"
-	"testing"
-
 	"github.com/golang/mock/gomock"
 	"github.com/xvguardian/xray-core-modified/common/buf"
 	"github.com/xvguardian/xray-core-modified/common/errors"
 	"github.com/xvguardian/xray-core-modified/testing/mocks"
+	"io"
+	"testing"
 )
 
 func TestReadError(t *testing.T) {

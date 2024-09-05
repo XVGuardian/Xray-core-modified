@@ -5,7 +5,7 @@ import (
 	"github.com/xvguardian/xray-core-modified/common/protocol"
 )
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/xvguardian/xray-core-modified/common/errors/errorgen
 
 const (
 	Version = byte(1)

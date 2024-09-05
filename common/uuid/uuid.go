@@ -1,4 +1,4 @@
-package uuid // import "github.com/xtls/xray-core/common/uuid"
+package uuid // import "github.com/xvguardian/xray-core-modified/common/uuid"
 
 import (
 	"bytes"

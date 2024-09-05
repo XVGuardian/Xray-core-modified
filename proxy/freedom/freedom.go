@@ -1,6 +1,6 @@
 package freedom
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/xvguardian/xray-core-modified/common/errors/errorgen
 
 import (
 	"context"
@@ -511,7 +511,7 @@ func (f *FragmentWriter) Write(b []byte) (int, error) {
 	}
 }
 
-// stolen from github.com/xtls/xray-core/transport/internet/reality
+// stolen from github.com/xvguardian/xray-core-modified/transport/internet/reality
 func randBetween(left int64, right int64) int64 {
 	if left == right {
 		return left

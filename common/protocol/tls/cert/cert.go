@@ -16,7 +16,7 @@ import (
 	"github.com/xvguardian/xray-core-modified/common/errors"
 )
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/xvguardian/xray-core-modified/common/errors/errorgen
 
 type Certificate struct {
 	// certificate in ASN.1 DER format

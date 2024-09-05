@@ -14,7 +14,7 @@ import (
 )
 
 func TestDOHNameServer(t *testing.T) {
-	url, err := url.Parse("https+local://1.1.1.1/dns-query")
+	url, err := url.Parse("https+local://8.8.8.8/dns-query")
 	common.Must(err)
 
 	s := NewDoHLocalNameServer(url, QueryStrategy_USE_IP)
@@ -31,7 +31,7 @@ func TestDOHNameServer(t *testing.T) {
 }
 
 func TestDOHNameServerWithCache(t *testing.T) {
-	url, err := url.Parse("https+local://1.1.1.1/dns-query")
+	url, err := url.Parse("https+local://8.8.8.8/dns-query")
 	common.Must(err)
 
 	s := NewDoHLocalNameServer(url, QueryStrategy_USE_IP)
@@ -59,7 +59,7 @@ func TestDOHNameServerWithCache(t *testing.T) {
 }
 
 func TestDOHNameServerWithIPv4Override(t *testing.T) {
-	url, err := url.Parse("https+local://1.1.1.1/dns-query")
+	url, err := url.Parse("https+local://8.8.8.8/dns-query")
 	common.Must(err)
 
 	s := NewDoHLocalNameServer(url, QueryStrategy_USE_IP4)
@@ -82,7 +82,7 @@ func TestDOHNameServerWithIPv4Override(t *testing.T) {
 }
 
 func TestDOHNameServerWithIPv6Override(t *testing.T) {
-	url, err := url.Parse("https+local://1.1.1.1/dns-query")
+	url, err := url.Parse("https+local://8.8.8.8/dns-query")
 	common.Must(err)
 
 	s := NewDoHLocalNameServer(url, QueryStrategy_USE_IP6)

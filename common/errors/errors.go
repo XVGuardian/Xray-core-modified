@@ -1,5 +1,5 @@
 // Package errors is a drop-in replacement for Golang lib 'errors'.
-package errors // import "github.com/xtls/xray-core/common/errors"
+package errors // import "github.com/xvguardian/xray-core-modified/common/errors"
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"github.com/xvguardian/xray-core-modified/common/serial"
 )
 
-const trim = len("github.com/xtls/xray-core/")
+const trim = len("github.com/xvguardian/xray-core-modified/")
 
 type hasInnerError interface {
 	// Unwrap returns the underlying error of this one.

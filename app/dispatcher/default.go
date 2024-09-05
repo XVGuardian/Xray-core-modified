@@ -1,6 +1,6 @@
 package dispatcher
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/xvguardian/xray-core-modified/common/errors/errorgen
 
 import (
 	"context"
@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"github.com/xvguardian/xray-core-modified/common"
-	"github.com/xvguardian/xray-core-modified/common/errors"
 	"github.com/xvguardian/xray-core-modified/common/buf"
+	"github.com/xvguardian/xray-core-modified/common/errors"
 	"github.com/xvguardian/xray-core-modified/common/log"
 	"github.com/xvguardian/xray-core-modified/common/net"
 	"github.com/xvguardian/xray-core-modified/common/protocol"

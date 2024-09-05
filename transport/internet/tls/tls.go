@@ -12,7 +12,7 @@ import (
 	"github.com/xvguardian/xray-core-modified/common/net"
 )
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/xvguardian/xray-core-modified/common/errors/errorgen
 
 type Interface interface {
 	net.Conn

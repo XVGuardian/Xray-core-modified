@@ -9,7 +9,7 @@
 // connections.
 package core
 
-//go:generate go run github.com/xtls/xray-core/common/errors/errorgen
+//go:generate go run github.com/xvguardian/xray-core-modified/common/errors/errorgen
 
 import (
 	"fmt"
