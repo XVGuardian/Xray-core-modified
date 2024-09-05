@@ -387,38 +387,38 @@ type Config struct {
 	// Port of this Point server.
 	// Deprecated: Port exists for historical compatibility
 	// and should not be used.
-	Port uint16 `json:"port"`
+	Port uint16 `json:"-"`
 
 	// Deprecated: InboundConfig exists for historical compatibility
 	// and should not be used.
-	InboundConfig *InboundDetourConfig `json:"inbound"`
+	InboundConfig *InboundDetourConfig `json:"-"`
 
 	// Deprecated: OutboundConfig exists for historical compatibility
 	// and should not be used.
-	OutboundConfig *OutboundDetourConfig `json:"outbound"`
+	OutboundConfig *OutboundDetourConfig `json:"-"`
 
 	// Deprecated: InboundDetours exists for historical compatibility
 	// and should not be used.
-	InboundDetours []InboundDetourConfig `json:"inboundDetour"`
+	InboundDetours []InboundDetourConfig `json:"-"`
 
 	// Deprecated: OutboundDetours exists for historical compatibility
 	// and should not be used.
-	OutboundDetours []OutboundDetourConfig `json:"outboundDetour"`
+	OutboundDetours []OutboundDetourConfig `json:"-"`
 
-	LogConfig        *LogConfig              `json:"log"`
-	RouterConfig     *RouterConfig           `json:"routing"`
-	DNSConfig        *DNSConfig              `json:"dns"`
-	InboundConfigs   []InboundDetourConfig   `json:"inbounds"`
-	OutboundConfigs  []OutboundDetourConfig  `json:"outbounds"`
-	Transport        *TransportConfig        `json:"transport"`
-	Policy           *PolicyConfig           `json:"policy"`
-	API              *APIConfig              `json:"api"`
-	Metrics          *MetricsConfig          `json:"metrics"`
-	Stats            *StatsConfig            `json:"stats"`
-	Reverse          *ReverseConfig          `json:"reverse"`
-	FakeDNS          *FakeDNSConfig          `json:"fakeDns"`
-	Observatory      *ObservatoryConfig      `json:"observatory"`
-	BurstObservatory *BurstObservatoryConfig `json:"burstObservatory"`
+	LogConfig        *LogConfig              `json:"log,omitempty"`
+	RouterConfig     *RouterConfig           `json:"routing,omitempty"`
+	DNSConfig        *DNSConfig              `json:"dns,omitempty"`
+	InboundConfigs   []InboundDetourConfig   `json:"inbounds,omitempty"`
+	OutboundConfigs  []OutboundDetourConfig  `json:"outbounds,omitempty"`
+	Transport        *TransportConfig        `json:"transport,omitempty"`
+	Policy           *PolicyConfig           `json:"policy,omitempty"`
+	API              *APIConfig              `json:"api,omitempty"`
+	Metrics          *MetricsConfig          `json:"metrics,omitempty"`
+	Stats            *StatsConfig            `json:"stats,omitempty"`
+	Reverse          *ReverseConfig          `json:"reverse,omitempty"`
+	FakeDNS          *FakeDNSConfig          `json:"fakeDns,omitempty"`
+	Observatory      *ObservatoryConfig      `json:"observatory,omitempty"`
+	BurstObservatory *BurstObservatoryConfig `json:"burstObservatory,omitempty"`
 }
 
 func (c *Config) findInboundTag(tag string) int {
