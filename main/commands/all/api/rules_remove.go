@@ -3,8 +3,8 @@ package api
 import (
 	"fmt"
 
-	routerService "github.com/xtls/xray-core/app/router/command"
-	"github.com/xtls/xray-core/main/commands/base"
+	routerService "github.com/xvguardian/xray-core-modified/app/router/command"
+	"github.com/xvguardian/xray-core-modified/main/commands/base"
 )
 
 var cmdRemoveRules = &base.Command{

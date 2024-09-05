@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/xtls/xray-core/common/errors"
+	"github.com/xvguardian/xray-core-modified/common/errors"
 )
 
 type (

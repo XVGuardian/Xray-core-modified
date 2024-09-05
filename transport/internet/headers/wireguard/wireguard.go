@@ -3,7 +3,7 @@ package wireguard
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
+	"github.com/xvguardian/xray-core-modified/common"
 )
 
 type Wireguard struct{}

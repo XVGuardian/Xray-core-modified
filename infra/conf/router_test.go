@@ -8,13 +8,13 @@ import (
 	"time"
 	_ "unsafe"
 
-	"github.com/xtls/xray-core/app/router"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/platform/filesystem"
-	"github.com/xtls/xray-core/common/serial"
-	. "github.com/xtls/xray-core/infra/conf"
+	"github.com/xvguardian/xray-core-modified/app/router"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/net"
+	"github.com/xvguardian/xray-core-modified/common/platform"
+	"github.com/xvguardian/xray-core-modified/common/platform/filesystem"
+	"github.com/xvguardian/xray-core-modified/common/serial"
+	. "github.com/xvguardian/xray-core-modified/infra/conf"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -6,14 +6,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol/tls/cert"
-	"github.com/xtls/xray-core/testing/servers/tcp"
-	"github.com/xtls/xray-core/transport/internet"
-	. "github.com/xtls/xray-core/transport/internet/httpupgrade"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/net"
+	"github.com/xvguardian/xray-core-modified/common/protocol/tls/cert"
+	"github.com/xvguardian/xray-core-modified/testing/servers/tcp"
+	"github.com/xvguardian/xray-core-modified/transport/internet"
+	. "github.com/xvguardian/xray-core-modified/transport/internet/httpupgrade"
+	"github.com/xvguardian/xray-core-modified/transport/internet/stat"
+	"github.com/xvguardian/xray-core-modified/transport/internet/tls"
 )
 
 func Test_listenHTTPUpgradeAndDial(t *testing.T) {
