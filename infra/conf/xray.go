@@ -387,23 +387,23 @@ type Config struct {
 	// Port of this Point server.
 	// Deprecated: Port exists for historical compatibility
 	// and should not be used.
-	Port uint16 `json:"-"`
+	Port uint16 `json:"port,omitempty"`
 
 	// Deprecated: InboundConfig exists for historical compatibility
 	// and should not be used.
-	InboundConfig *InboundDetourConfig `json:"-"`
+	InboundConfig *InboundDetourConfig `json:"inbound,omitempty"`
 
 	// Deprecated: OutboundConfig exists for historical compatibility
 	// and should not be used.
-	OutboundConfig *OutboundDetourConfig `json:"-"`
+	OutboundConfig *OutboundDetourConfig `json:"outbound,omitempty"`
 
 	// Deprecated: InboundDetours exists for historical compatibility
 	// and should not be used.
-	InboundDetours []InboundDetourConfig `json:"-"`
+	InboundDetours []InboundDetourConfig `json:"inboundDetour,omitempty"`
 
 	// Deprecated: OutboundDetours exists for historical compatibility
 	// and should not be used.
-	OutboundDetours []OutboundDetourConfig `json:"-"`
+	OutboundDetours []OutboundDetourConfig `json:"outboundDetour,omitempty"`
 
 	LogConfig        *LogConfig              `json:"log,omitempty"`
 	RouterConfig     *RouterConfig           `json:"routing,omitempty"`
