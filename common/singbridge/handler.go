@@ -6,11 +6,11 @@ import (
 
 	M "github.com/sagernet/sing/common/metadata"
 	N "github.com/sagernet/sing/common/network"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
+	"github.com/xvguardian/xray-core-modified/common/buf"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	"github.com/xvguardian/xray-core-modified/common/net"
+	"github.com/xvguardian/xray-core-modified/features/routing"
+	"github.com/xvguardian/xray-core-modified/transport"
 )
 
 var (

@@ -6,11 +6,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/features/stats"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	"github.com/xvguardian/xray-core-modified/core"
+	"github.com/xvguardian/xray-core-modified/features/routing"
+	"github.com/xvguardian/xray-core-modified/features/stats"
 	"google.golang.org/grpc"
 )
 

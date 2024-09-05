@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xtls/xray-core/common/errors"
-	v2net "github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/proxy/freedom"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	v2net "github.com/xvguardian/xray-core-modified/common/net"
+	"github.com/xvguardian/xray-core-modified/common/protocol"
+	"github.com/xvguardian/xray-core-modified/proxy/freedom"
 	"google.golang.org/protobuf/proto"
 )
 

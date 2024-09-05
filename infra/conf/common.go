@@ -5,10 +5,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/platform"
-	"github.com/xtls/xray-core/common/protocol"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	"github.com/xvguardian/xray-core-modified/common/net"
+	"github.com/xvguardian/xray-core-modified/common/platform"
+	"github.com/xvguardian/xray-core-modified/common/protocol"
 )
 
 type StringList []string

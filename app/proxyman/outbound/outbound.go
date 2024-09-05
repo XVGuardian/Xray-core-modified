@@ -8,11 +8,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xtls/xray-core/app/proxyman"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/outbound"
+	"github.com/xvguardian/xray-core-modified/app/proxyman"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	"github.com/xvguardian/xray-core-modified/core"
+	"github.com/xvguardian/xray-core-modified/features/outbound"
 )
 
 // Manager is to manage all outbound handlers.

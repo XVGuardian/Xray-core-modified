@@ -7,8 +7,8 @@
 package quic
 
 import (
-	protocol "github.com/xtls/xray-core/common/protocol"
-	serial "github.com/xtls/xray-core/common/serial"
+	protocol "github.com/xvguardian/xray-core-modified/common/protocol"
+	serial "github.com/xvguardian/xray-core-modified/common/serial"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

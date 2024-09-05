@@ -3,17 +3,17 @@ package internet
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/dice"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/features/dns"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/dice"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	"github.com/xvguardian/xray-core-modified/common/net"
+	"github.com/xvguardian/xray-core-modified/common/net/cnc"
+	"github.com/xvguardian/xray-core-modified/common/session"
+	"github.com/xvguardian/xray-core-modified/features/dns"
+	"github.com/xvguardian/xray-core-modified/features/outbound"
+	"github.com/xvguardian/xray-core-modified/transport"
+	"github.com/xvguardian/xray-core-modified/transport/internet/stat"
+	"github.com/xvguardian/xray-core-modified/transport/pipe"
 )
 
 // Dialer is the interface for dialing outbound connections.

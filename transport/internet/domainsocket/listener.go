@@ -10,13 +10,13 @@ import (
 	"strings"
 
 	goreality "github.com/xtls/reality"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/transport/internet"
-	"github.com/xtls/xray-core/transport/internet/reality"
-	"github.com/xtls/xray-core/transport/internet/stat"
-	"github.com/xtls/xray-core/transport/internet/tls"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	"github.com/xvguardian/xray-core-modified/common/net"
+	"github.com/xvguardian/xray-core-modified/transport/internet"
+	"github.com/xvguardian/xray-core-modified/transport/internet/reality"
+	"github.com/xvguardian/xray-core-modified/transport/internet/stat"
+	"github.com/xvguardian/xray-core-modified/transport/internet/tls"
 	"golang.org/x/sys/unix"
 )
 

@@ -9,7 +9,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	dns "github.com/xtls/xray-core/features/dns"
+	dns "github.com/xvguardian/xray-core-modified/features/dns"
 )
 
 // DNSClient is a mock of Client interface

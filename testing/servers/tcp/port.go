@@ -1,8 +1,8 @@
 package tcp
 
 import (
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/net"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/net"
 )
 
 // PickPort returns an unused TCP port in the system. The port returned is highly likely to be unused, but not guaranteed.

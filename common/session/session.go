@@ -5,11 +5,11 @@ import (
 	"context"
 	"math/rand"
 
-	c "github.com/xtls/xray-core/common/ctx"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/signal"
+	c "github.com/xvguardian/xray-core-modified/common/ctx"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	"github.com/xvguardian/xray-core-modified/common/net"
+	"github.com/xvguardian/xray-core-modified/common/protocol"
+	"github.com/xvguardian/xray-core-modified/common/signal"
 )
 
 // NewID generates a new ID. The generated ID is high likely to be unique, but not cryptographically secure.

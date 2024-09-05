@@ -4,12 +4,12 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/net/cnc"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport/internet/udp"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	"github.com/xvguardian/xray-core-modified/common/net"
+	"github.com/xvguardian/xray-core-modified/common/net/cnc"
+	"github.com/xvguardian/xray-core-modified/features/routing"
+	"github.com/xvguardian/xray-core-modified/transport/internet/udp"
 )
 
 // CreateObject creates a new object based on the given Xray instance and config. The Xray instance may be nil.

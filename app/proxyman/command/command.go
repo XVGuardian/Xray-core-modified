@@ -3,12 +3,12 @@ package command
 import (
 	"context"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/core"
-	"github.com/xtls/xray-core/features/inbound"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/proxy"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	"github.com/xvguardian/xray-core-modified/core"
+	"github.com/xvguardian/xray-core-modified/features/inbound"
+	"github.com/xvguardian/xray-core-modified/features/outbound"
+	"github.com/xvguardian/xray-core-modified/proxy"
 	grpc "google.golang.org/grpc"
 )
 

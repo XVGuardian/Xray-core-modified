@@ -5,11 +5,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/assert"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/common/uuid"
-	. "github.com/xtls/xray-core/proxy/vmess/encoding"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/buf"
+	"github.com/xvguardian/xray-core-modified/common/protocol"
+	"github.com/xvguardian/xray-core-modified/common/uuid"
+	. "github.com/xvguardian/xray-core-modified/proxy/vmess/encoding"
 )
 
 func TestSwitchAccount(t *testing.T) {

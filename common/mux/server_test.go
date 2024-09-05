@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/mux"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/common/session"
-	"github.com/xtls/xray-core/features/routing"
-	"github.com/xtls/xray-core/transport"
-	"github.com/xtls/xray-core/transport/pipe"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/buf"
+	"github.com/xvguardian/xray-core-modified/common/mux"
+	"github.com/xvguardian/xray-core-modified/common/net"
+	"github.com/xvguardian/xray-core-modified/common/session"
+	"github.com/xvguardian/xray-core-modified/features/routing"
+	"github.com/xvguardian/xray-core-modified/transport"
+	"github.com/xvguardian/xray-core-modified/transport/pipe"
 )
 
 func newLinkPair() (*transport.Link, *transport.Link) {

@@ -4,11 +4,11 @@ import (
 	"context"
 	"io"
 
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/protocol"
-	"github.com/xtls/xray-core/proxy"
-	"github.com/xtls/xray-core/proxy/vless"
+	"github.com/xvguardian/xray-core-modified/common/buf"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	"github.com/xvguardian/xray-core-modified/common/protocol"
+	"github.com/xvguardian/xray-core-modified/proxy"
+	"github.com/xvguardian/xray-core-modified/proxy/vless"
 	"google.golang.org/protobuf/proto"
 )
 

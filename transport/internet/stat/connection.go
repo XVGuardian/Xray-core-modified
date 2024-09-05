@@ -3,7 +3,7 @@ package stat
 import (
 	"net"
 
-	"github.com/xtls/xray-core/features/stats"
+	"github.com/xvguardian/xray-core-modified/features/stats"
 )
 
 type Connection interface {

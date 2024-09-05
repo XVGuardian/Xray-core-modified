@@ -1,4 +1,4 @@
-module github.com/XVGuardian/Xray-core-modified
+module github.com/xvguardian/xray-core-modified
 
 go 1.21.4
 

@@ -3,9 +3,9 @@ package dispatcher_test
 import (
 	"testing"
 
-	. "github.com/xtls/xray-core/app/dispatcher"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
+	. "github.com/xvguardian/xray-core-modified/app/dispatcher"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/buf"
 )
 
 type TestCounter int64

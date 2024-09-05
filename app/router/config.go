@@ -5,10 +5,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/xtls/xray-core/common/errors"
-	"github.com/xtls/xray-core/common/net"
-	"github.com/xtls/xray-core/features/outbound"
-	"github.com/xtls/xray-core/features/routing"
+	"github.com/xvguardian/xray-core-modified/common/errors"
+	"github.com/xvguardian/xray-core-modified/common/net"
+	"github.com/xvguardian/xray-core-modified/features/outbound"
+	"github.com/xvguardian/xray-core-modified/features/routing"
 )
 
 type Rule struct {

@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/xtls/xray-core/common"
-	"github.com/xtls/xray-core/common/buf"
-	"github.com/xtls/xray-core/testing/servers/tcp"
-	. "github.com/xtls/xray-core/transport/internet"
+	"github.com/xvguardian/xray-core-modified/common"
+	"github.com/xvguardian/xray-core-modified/common/buf"
+	"github.com/xvguardian/xray-core-modified/testing/servers/tcp"
+	. "github.com/xvguardian/xray-core-modified/transport/internet"
 )
 
 func TestTCPFastOpen(t *testing.T) {
